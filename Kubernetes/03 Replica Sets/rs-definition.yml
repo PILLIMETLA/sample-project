@@ -4,6 +4,8 @@ metadata:
   name: myapp-rs
 spec:
   replicas: 3
+  selector:
+    app: myapp-rs
   template:
     metadata:
       name: myapp-pod
@@ -11,6 +13,5 @@ spec:
         app: myapp
     spec:
       containers:
-        - name: myapp-nginx
+        - name: myapp-container
           image: nginx
-          port:

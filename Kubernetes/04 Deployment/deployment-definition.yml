@@ -8,8 +8,8 @@ spec:
     matchLabels:
       app: myapp
   template:
-    name: myapp-pod
     metadata:
+      name: myapp-pod
       labels:
         app: myapp
     spec:

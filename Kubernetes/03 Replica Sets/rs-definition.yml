@@ -5,12 +5,12 @@ metadata:
 spec:
   replicas: 3
   selector:
-    app: myapp-rs
+    app: myapp-pod
   template:
     metadata:
       name: myapp-pod
       labels:
-        app: myapp-rs
+        app: myapp-pod
     spec:
       containers:
         - name: myapp-container

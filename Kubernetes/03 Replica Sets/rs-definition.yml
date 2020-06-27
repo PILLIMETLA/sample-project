@@ -10,7 +10,7 @@ spec:
     metadata:
       name: myapp-pod
       labels:
-        app: myapp
+        app: myapp-rs
     spec:
       containers:
         - name: myapp-container

@@ -8,7 +8,7 @@
       path_to_app: "/var/www/html"
 
     vars_files:
-      - ../vars/secret-varibles.yml # vault password is 'password'
+      - ../vars/secret-variable.yml # vault password is 'password'
  
     tasks:
       - name: Use secret password here
